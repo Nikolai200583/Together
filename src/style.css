@@ -1,0 +1,91 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+    background-image: url(../lib/08102143-Rock-Paper-Scissors.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.app {   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;    
+}
+
+.title {
+    color: rgb(76, 13, 117);
+}
+.form__content{
+    display: flex;
+    gap: 10px;
+}
+.formInput{
+   padding: 5px;
+   width: 250px;
+   height: 35px;
+   border: none;
+   border-bottom: 1px solid black;
+   background: transparent;
+       
+}
+.formButton{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid rgb(147, 221, 166);
+    background-color: transparent;   
+}
+.form__content_lobby {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.user__login {
+    padding: 5px;
+    border: 1px solid black;
+    background-color: transparent;
+    border-radius: 25px;
+    text-align: center;
+}
+.form__button_lobby{
+    padding: 5px;
+    border: 1px solid black;
+    background-color: #99bd99;
+    border-radius: 25px;
+}
+.button__box {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.buttons {
+    color: transparent;
+    width: 60px;
+    height: 60px;
+    background-color: #99bd99;
+    border-radius: 50%;
+}
+.rock {    
+    background-image: url(../lib/rock.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 65px 70px;
+}
+.paper {
+    background-image: url(../lib/paper.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 65px 70px;
+}
+.scissors {
+    background-image: url(../lib/sc.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 65px 70px;
+}
